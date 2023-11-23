@@ -1,0 +1,14 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.cardImg, .cardCover{
+  width: 200px;
+}

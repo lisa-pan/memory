@@ -1,0 +1,17 @@
+.card {
+  position:relative;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card .cardImg {
+  display: none; /* or rotate it 90deg */
+  position: absolute;
+}
+
+.flipped .cardImg {
+  display: block;
+}
